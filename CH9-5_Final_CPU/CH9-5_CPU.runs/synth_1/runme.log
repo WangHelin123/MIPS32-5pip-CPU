@@ -1,0 +1,479 @@
+
+*** Running vivado
+    with args -log openmips_min_sopc_tb.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source openmips_min_sopc_tb.tcl
+
+
+****** Vivado v2019.2 (64-bit)
+  **** SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+  **** IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source openmips_min_sopc_tb.tcl -notrace
+Command: synth_design -top openmips_min_sopc_tb -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 6024 
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 507.680 ; gain = 214.031
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'openmips_min_sopc_tb' [G:/vi_project/keshe/HelinCPU/CH9-5_CPU/CH9-5_CPU.srcs/sources_1/imports/Chapter9_1/openmips_min_sopc_tb.v:36]
+WARNING: [Synth 8-6896] loop limit (65536) exceeded inside initial block, initial block items will be ignored [G:/vi_project/keshe/HelinCPU/CH9-5_CPU/CH9-5_CPU.srcs/sources_1/imports/Chapter9_1/openmips_min_sopc_tb.v:44]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [G:/vi_project/keshe/HelinCPU/CH9-5_CPU/CH9-5_CPU.srcs/sources_1/imports/Chapter9_1/openmips_min_sopc_tb.v:53]
+INFO: [Synth 8-6157] synthesizing module 'openmips_min_sopc' [G:/vi_project/keshe/HelinCPU/CH9-5_CPU/CH9-5_CPU.srcs/sources_1/imports/Chapter9_1/openmips_min_sopc.v:40]
+INFO: [Synth 8-6157] synthesizing module 'openmips' [G:/vi_project/keshe/HelinCPU/CH9-5_CPU/CH9-5_CPU.srcs/sources_1/imports/Chapter9_1/openmips.v:35]
+INFO: [Synth 8-6157] synthesizing module 'pc_reg' [G:/vi_project/keshe/HelinCPU/CH9-5_CPU/CH9-5_CPU.srcs/sources_1/imports/Chapter9_1/pc_reg.v:35]
+INFO: [Synth 8-6155] done synthesizing module 'pc_reg' (1#1) [G:/vi_project/keshe/HelinCPU/CH9-5_CPU/CH9-5_CPU.srcs/sources_1/imports/Chapter9_1/pc_reg.v:35]
+INFO: [Synth 8-6157] synthesizing module 'if_id' [G:/vi_project/keshe/HelinCPU/CH9-5_CPU/CH9-5_CPU.srcs/sources_1/imports/Chapter9_1/if_id.v:35]
+INFO: [Synth 8-6155] done synthesizing module 'if_id' (2#1) [G:/vi_project/keshe/HelinCPU/CH9-5_CPU/CH9-5_CPU.srcs/sources_1/imports/Chapter9_1/if_id.v:35]
+INFO: [Synth 8-6157] synthesizing module 'id' [G:/vi_project/keshe/HelinCPU/CH9-5_CPU/CH9-5_CPU.srcs/sources_1/imports/Chapter9_1/id.v:35]
+INFO: [Synth 8-6155] done synthesizing module 'id' (3#1) [G:/vi_project/keshe/HelinCPU/CH9-5_CPU/CH9-5_CPU.srcs/sources_1/imports/Chapter9_1/id.v:35]
+INFO: [Synth 8-6157] synthesizing module 'regfile' [G:/vi_project/keshe/HelinCPU/CH9-5_CPU/CH9-5_CPU.srcs/sources_1/imports/Chapter9_1/regfile.v:35]
+INFO: [Synth 8-6155] done synthesizing module 'regfile' (4#1) [G:/vi_project/keshe/HelinCPU/CH9-5_CPU/CH9-5_CPU.srcs/sources_1/imports/Chapter9_1/regfile.v:35]
+INFO: [Synth 8-6157] synthesizing module 'id_ex' [G:/vi_project/keshe/HelinCPU/CH9-5_CPU/CH9-5_CPU.srcs/sources_1/imports/Chapter9_1/id_ex.v:35]
+INFO: [Synth 8-6155] done synthesizing module 'id_ex' (5#1) [G:/vi_project/keshe/HelinCPU/CH9-5_CPU/CH9-5_CPU.srcs/sources_1/imports/Chapter9_1/id_ex.v:35]
+INFO: [Synth 8-6157] synthesizing module 'ex' [G:/vi_project/keshe/HelinCPU/CH9-5_CPU/CH9-5_CPU.srcs/sources_1/imports/Chapter9_1/ex.v:35]
+INFO: [Synth 8-6155] done synthesizing module 'ex' (6#1) [G:/vi_project/keshe/HelinCPU/CH9-5_CPU/CH9-5_CPU.srcs/sources_1/imports/Chapter9_1/ex.v:35]
+INFO: [Synth 8-6157] synthesizing module 'ex_mem' [G:/vi_project/keshe/HelinCPU/CH9-5_CPU/CH9-5_CPU.srcs/sources_1/imports/Chapter9_1/ex_mem.v:35]
+INFO: [Synth 8-6155] done synthesizing module 'ex_mem' (7#1) [G:/vi_project/keshe/HelinCPU/CH9-5_CPU/CH9-5_CPU.srcs/sources_1/imports/Chapter9_1/ex_mem.v:35]
+INFO: [Synth 8-6157] synthesizing module 'mem' [G:/vi_project/keshe/HelinCPU/CH9-5_CPU/CH9-5_CPU.srcs/sources_1/imports/Chapter9_1/mem.v:35]
+INFO: [Synth 8-226] default block is never used [G:/vi_project/keshe/HelinCPU/CH9-5_CPU/CH9-5_CPU.srcs/sources_1/imports/Chapter9_1/mem.v:106]
+INFO: [Synth 8-226] default block is never used [G:/vi_project/keshe/HelinCPU/CH9-5_CPU/CH9-5_CPU.srcs/sources_1/imports/Chapter9_1/mem.v:132]
+INFO: [Synth 8-226] default block is never used [G:/vi_project/keshe/HelinCPU/CH9-5_CPU/CH9-5_CPU.srcs/sources_1/imports/Chapter9_1/mem.v:202]
+INFO: [Synth 8-226] default block is never used [G:/vi_project/keshe/HelinCPU/CH9-5_CPU/CH9-5_CPU.srcs/sources_1/imports/Chapter9_1/mem.v:225]
+INFO: [Synth 8-226] default block is never used [G:/vi_project/keshe/HelinCPU/CH9-5_CPU/CH9-5_CPU.srcs/sources_1/imports/Chapter9_1/mem.v:248]
+INFO: [Synth 8-226] default block is never used [G:/vi_project/keshe/HelinCPU/CH9-5_CPU/CH9-5_CPU.srcs/sources_1/imports/Chapter9_1/mem.v:294]
+INFO: [Synth 8-226] default block is never used [G:/vi_project/keshe/HelinCPU/CH9-5_CPU/CH9-5_CPU.srcs/sources_1/imports/Chapter9_1/mem.v:320]
+INFO: [Synth 8-6155] done synthesizing module 'mem' (8#1) [G:/vi_project/keshe/HelinCPU/CH9-5_CPU/CH9-5_CPU.srcs/sources_1/imports/Chapter9_1/mem.v:35]
+WARNING: [Synth 8-689] width (4) of port connection 'mem_ce_o' does not match port width (1) of module 'mem' [G:/vi_project/keshe/HelinCPU/CH9-5_CPU/CH9-5_CPU.srcs/sources_1/imports/Chapter9_1/openmips.v:406]
+INFO: [Synth 8-6157] synthesizing module 'mem_wb' [G:/vi_project/keshe/HelinCPU/CH9-5_CPU/CH9-5_CPU.srcs/sources_1/imports/Chapter9_1/mem_wb.v:35]
+INFO: [Synth 8-6155] done synthesizing module 'mem_wb' (9#1) [G:/vi_project/keshe/HelinCPU/CH9-5_CPU/CH9-5_CPU.srcs/sources_1/imports/Chapter9_1/mem_wb.v:35]
+INFO: [Synth 8-6157] synthesizing module 'hilo_reg' [G:/vi_project/keshe/HelinCPU/CH9-5_CPU/CH9-5_CPU.srcs/sources_1/imports/Chapter9_1/hilo_reg.v:35]
+INFO: [Synth 8-6155] done synthesizing module 'hilo_reg' (10#1) [G:/vi_project/keshe/HelinCPU/CH9-5_CPU/CH9-5_CPU.srcs/sources_1/imports/Chapter9_1/hilo_reg.v:35]
+INFO: [Synth 8-6157] synthesizing module 'ctrl' [G:/vi_project/keshe/HelinCPU/CH9-5_CPU/CH9-5_CPU.srcs/sources_1/imports/Chapter9_1/ctrl.v:35]
+INFO: [Synth 8-6155] done synthesizing module 'ctrl' (11#1) [G:/vi_project/keshe/HelinCPU/CH9-5_CPU/CH9-5_CPU.srcs/sources_1/imports/Chapter9_1/ctrl.v:35]
+INFO: [Synth 8-6157] synthesizing module 'div' [G:/vi_project/keshe/HelinCPU/CH9-5_CPU/CH9-5_CPU.srcs/sources_1/imports/Chapter9_1/div.v:35]
+WARNING: [Synth 8-6014] Unused sequential element temp_op1_reg was removed.  [G:/vi_project/keshe/HelinCPU/CH9-5_CPU/CH9-5_CPU.srcs/sources_1/imports/Chapter9_1/div.v:75]
+WARNING: [Synth 8-6014] Unused sequential element temp_op2_reg was removed.  [G:/vi_project/keshe/HelinCPU/CH9-5_CPU/CH9-5_CPU.srcs/sources_1/imports/Chapter9_1/div.v:80]
+INFO: [Synth 8-6155] done synthesizing module 'div' (12#1) [G:/vi_project/keshe/HelinCPU/CH9-5_CPU/CH9-5_CPU.srcs/sources_1/imports/Chapter9_1/div.v:35]
+INFO: [Synth 8-6155] done synthesizing module 'openmips' (13#1) [G:/vi_project/keshe/HelinCPU/CH9-5_CPU/CH9-5_CPU.srcs/sources_1/imports/Chapter9_1/openmips.v:35]
+WARNING: [Synth 8-689] width (1) of port connection 'ram_ce_o' does not match port width (4) of module 'openmips' [G:/vi_project/keshe/HelinCPU/CH9-5_CPU/CH9-5_CPU.srcs/sources_1/imports/Chapter9_1/openmips_min_sopc.v:72]
+INFO: [Synth 8-6157] synthesizing module 'inst_rom' [G:/vi_project/keshe/HelinCPU/CH9-5_CPU/CH9-5_CPU.srcs/sources_1/imports/Chapter9_1/inst_rom.v:35]
+INFO: [Synth 8-3876] $readmem data file 'G:/vi_project/keshe/OpenMIPS/OpenMIPS.srcs/sources_1/new/inst_rom.data' is read successfully [G:/vi_project/keshe/HelinCPU/CH9-5_CPU/CH9-5_CPU.srcs/sources_1/imports/Chapter9_1/inst_rom.v:46]
+INFO: [Synth 8-6155] done synthesizing module 'inst_rom' (14#1) [G:/vi_project/keshe/HelinCPU/CH9-5_CPU/CH9-5_CPU.srcs/sources_1/imports/Chapter9_1/inst_rom.v:35]
+INFO: [Synth 8-6157] synthesizing module 'data_ram' [G:/vi_project/keshe/HelinCPU/CH9-5_CPU/CH9-5_CPU.srcs/sources_1/imports/Chapter9_1/data_ram.v:35]
+INFO: [Synth 8-6155] done synthesizing module 'data_ram' (15#1) [G:/vi_project/keshe/HelinCPU/CH9-5_CPU/CH9-5_CPU.srcs/sources_1/imports/Chapter9_1/data_ram.v:35]
+INFO: [Synth 8-6155] done synthesizing module 'openmips_min_sopc' (16#1) [G:/vi_project/keshe/HelinCPU/CH9-5_CPU/CH9-5_CPU.srcs/sources_1/imports/Chapter9_1/openmips_min_sopc.v:40]
+INFO: [Synth 8-6155] done synthesizing module 'openmips_min_sopc_tb' (17#1) [G:/vi_project/keshe/HelinCPU/CH9-5_CPU/CH9-5_CPU.srcs/sources_1/imports/Chapter9_1/openmips_min_sopc_tb.v:36]
+WARNING: [Synth 8-3331] design data_ram has unconnected port addr[31]
+WARNING: [Synth 8-3331] design data_ram has unconnected port addr[30]
+WARNING: [Synth 8-3331] design data_ram has unconnected port addr[29]
+WARNING: [Synth 8-3331] design data_ram has unconnected port addr[28]
+WARNING: [Synth 8-3331] design data_ram has unconnected port addr[27]
+WARNING: [Synth 8-3331] design data_ram has unconnected port addr[26]
+WARNING: [Synth 8-3331] design data_ram has unconnected port addr[25]
+WARNING: [Synth 8-3331] design data_ram has unconnected port addr[24]
+WARNING: [Synth 8-3331] design data_ram has unconnected port addr[23]
+WARNING: [Synth 8-3331] design data_ram has unconnected port addr[22]
+WARNING: [Synth 8-3331] design data_ram has unconnected port addr[21]
+WARNING: [Synth 8-3331] design data_ram has unconnected port addr[20]
+WARNING: [Synth 8-3331] design data_ram has unconnected port addr[19]
+WARNING: [Synth 8-3331] design data_ram has unconnected port addr[1]
+WARNING: [Synth 8-3331] design data_ram has unconnected port addr[0]
+WARNING: [Synth 8-3331] design inst_rom has unconnected port addr[31]
+WARNING: [Synth 8-3331] design inst_rom has unconnected port addr[30]
+WARNING: [Synth 8-3331] design inst_rom has unconnected port addr[29]
+WARNING: [Synth 8-3331] design inst_rom has unconnected port addr[28]
+WARNING: [Synth 8-3331] design inst_rom has unconnected port addr[27]
+WARNING: [Synth 8-3331] design inst_rom has unconnected port addr[26]
+WARNING: [Synth 8-3331] design inst_rom has unconnected port addr[25]
+WARNING: [Synth 8-3331] design inst_rom has unconnected port addr[24]
+WARNING: [Synth 8-3331] design inst_rom has unconnected port addr[23]
+WARNING: [Synth 8-3331] design inst_rom has unconnected port addr[22]
+WARNING: [Synth 8-3331] design inst_rom has unconnected port addr[21]
+WARNING: [Synth 8-3331] design inst_rom has unconnected port addr[20]
+WARNING: [Synth 8-3331] design inst_rom has unconnected port addr[19]
+WARNING: [Synth 8-3331] design inst_rom has unconnected port addr[1]
+WARNING: [Synth 8-3331] design inst_rom has unconnected port addr[0]
+WARNING: [Synth 8-3331] design mem_wb has unconnected port stall[3]
+WARNING: [Synth 8-3331] design mem_wb has unconnected port stall[2]
+WARNING: [Synth 8-3331] design mem_wb has unconnected port stall[1]
+WARNING: [Synth 8-3331] design mem_wb has unconnected port stall[0]
+WARNING: [Synth 8-3331] design ex_mem has unconnected port stall[5]
+WARNING: [Synth 8-3331] design ex_mem has unconnected port stall[2]
+WARNING: [Synth 8-3331] design ex_mem has unconnected port stall[1]
+WARNING: [Synth 8-3331] design ex_mem has unconnected port stall[0]
+WARNING: [Synth 8-3331] design ex has unconnected port inst_i[31]
+WARNING: [Synth 8-3331] design ex has unconnected port inst_i[30]
+WARNING: [Synth 8-3331] design ex has unconnected port inst_i[29]
+WARNING: [Synth 8-3331] design ex has unconnected port inst_i[28]
+WARNING: [Synth 8-3331] design ex has unconnected port inst_i[27]
+WARNING: [Synth 8-3331] design ex has unconnected port inst_i[26]
+WARNING: [Synth 8-3331] design ex has unconnected port inst_i[25]
+WARNING: [Synth 8-3331] design ex has unconnected port inst_i[24]
+WARNING: [Synth 8-3331] design ex has unconnected port inst_i[23]
+WARNING: [Synth 8-3331] design ex has unconnected port inst_i[22]
+WARNING: [Synth 8-3331] design ex has unconnected port inst_i[21]
+WARNING: [Synth 8-3331] design ex has unconnected port inst_i[20]
+WARNING: [Synth 8-3331] design ex has unconnected port inst_i[19]
+WARNING: [Synth 8-3331] design ex has unconnected port inst_i[18]
+WARNING: [Synth 8-3331] design ex has unconnected port inst_i[17]
+WARNING: [Synth 8-3331] design ex has unconnected port inst_i[16]
+WARNING: [Synth 8-3331] design ex has unconnected port is_in_delayslot_i
+WARNING: [Synth 8-3331] design id_ex has unconnected port stall[5]
+WARNING: [Synth 8-3331] design id_ex has unconnected port stall[4]
+WARNING: [Synth 8-3331] design id_ex has unconnected port stall[1]
+WARNING: [Synth 8-3331] design id_ex has unconnected port stall[0]
+WARNING: [Synth 8-3331] design if_id has unconnected port stall[5]
+WARNING: [Synth 8-3331] design if_id has unconnected port stall[4]
+WARNING: [Synth 8-3331] design if_id has unconnected port stall[3]
+WARNING: [Synth 8-3331] design if_id has unconnected port stall[0]
+WARNING: [Synth 8-3331] design pc_reg has unconnected port stall[5]
+WARNING: [Synth 8-3331] design pc_reg has unconnected port stall[4]
+WARNING: [Synth 8-3331] design pc_reg has unconnected port stall[3]
+WARNING: [Synth 8-3331] design pc_reg has unconnected port stall[2]
+WARNING: [Synth 8-3331] design pc_reg has unconnected port stall[1]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 633.074 ; gain = 339.426
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 633.074 ; gain = 339.426
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 633.074 ; gain = 339.426
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "reg1_read_o" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5587] ROM size for "reg2_read_o" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-5546] ROM "aluop_o" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5587] ROM size for "aluop_o" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-5546] ROM "aluop_o" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "alusel_o" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5587] ROM size for "alusel_o" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-5546] ROM "alusel_o" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "branch_flag_o" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 4 [G:/vi_project/keshe/HelinCPU/CH9-5_CPU/CH9-5_CPU.srcs/sources_1/imports/Chapter9_1/ex.v:246]
+INFO: [Synth 8-5546] ROM "mem_we" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_ce_o" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'div'
+INFO: [Synth 8-5544] ROM "inst_mem" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+WARNING: [Synth 8-327] inferring latch for variable 'reg1_o_reg' [G:/vi_project/keshe/HelinCPU/CH9-5_CPU/CH9-5_CPU.srcs/sources_1/imports/Chapter9_1/id.v:608]
+WARNING: [Synth 8-327] inferring latch for variable 'reg2_o_reg' [G:/vi_project/keshe/HelinCPU/CH9-5_CPU/CH9-5_CPU.srcs/sources_1/imports/Chapter9_1/id.v:630]
+WARNING: [Synth 8-327] inferring latch for variable 'hilo_temp1_reg' [G:/vi_project/keshe/HelinCPU/CH9-5_CPU/CH9-5_CPU.srcs/sources_1/imports/Chapter9_1/ex.v:294]
+WARNING: [Synth 8-327] inferring latch for variable 'hilo_temp_o_reg' [G:/vi_project/keshe/HelinCPU/CH9-5_CPU/CH9-5_CPU.srcs/sources_1/imports/Chapter9_1/ex.v:283]
+WARNING: [Synth 8-327] inferring latch for variable 'cnt_o_reg' [G:/vi_project/keshe/HelinCPU/CH9-5_CPU/CH9-5_CPU.srcs/sources_1/imports/Chapter9_1/ex.v:284]
+WARNING: [Synth 8-327] inferring latch for variable 'stallreq_for_madd_msub_reg' [G:/vi_project/keshe/HelinCPU/CH9-5_CPU/CH9-5_CPU.srcs/sources_1/imports/Chapter9_1/ex.v:285]
+WARNING: [Synth 8-327] inferring latch for variable 'mem_data_o_reg' [G:/vi_project/keshe/HelinCPU/CH9-5_CPU/CH9-5_CPU.srcs/sources_1/imports/Chapter9_1/mem.v:88]
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 iSTATE1 |                               00 |                               00
+                 iSTATE0 |                               01 |                               01
+                  iSTATE |                               10 |                               10
+                 iSTATE2 |                               11 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'div'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:19 ; elapsed = 00:00:18 . Memory (MB): peak = 689.562 ; gain = 395.914
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     64 Bit       Adders := 4     
+	   3 Input     33 Bit       Adders := 1     
+	   2 Input     32 Bit       Adders := 10    
+	   2 Input      6 Bit       Adders := 2     
++---XORs : 
+	   2 Input     32 Bit         XORs := 1     
+	   2 Input      1 Bit         XORs := 3     
++---Registers : 
+	               65 Bit    Registers := 1     
+	               64 Bit    Registers := 2     
+	               32 Bit    Registers := 17    
+	                8 Bit    Registers := 2     
+	                6 Bit    Registers := 1     
+	                5 Bit    Registers := 3     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 9     
++---RAMs : 
+	            1023K Bit         RAMs := 4     
+	             1024 Bit         RAMs := 1     
++---Muxes : 
+	   2 Input     65 Bit        Muxes := 5     
+	   4 Input     65 Bit        Muxes := 2     
+	   2 Input     64 Bit        Muxes := 10    
+	   3 Input     64 Bit        Muxes := 2     
+	   4 Input     64 Bit        Muxes := 1     
+	   2 Input     32 Bit        Muxes := 57    
+	   8 Input     32 Bit        Muxes := 2     
+	   5 Input     32 Bit        Muxes := 3     
+	  33 Input     32 Bit        Muxes := 1     
+	   4 Input     32 Bit        Muxes := 9     
+	   3 Input     32 Bit        Muxes := 3     
+	  13 Input     32 Bit        Muxes := 1     
+	   3 Input     16 Bit        Muxes := 1     
+	   8 Input      8 Bit        Muxes := 1     
+	  33 Input      8 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 3     
+	   4 Input      8 Bit        Muxes := 2     
+	  28 Input      7 Bit        Muxes := 1     
+	   5 Input      7 Bit        Muxes := 1     
+	  33 Input      6 Bit        Muxes := 2     
+	   2 Input      6 Bit        Muxes := 1     
+	   4 Input      6 Bit        Muxes := 1     
+	   5 Input      5 Bit        Muxes := 1     
+	   4 Input      5 Bit        Muxes := 3     
+	   2 Input      5 Bit        Muxes := 6     
+	   4 Input      4 Bit        Muxes := 3     
+	   3 Input      4 Bit        Muxes := 2     
+	  13 Input      4 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 4     
+	   8 Input      3 Bit        Muxes := 3     
+	  28 Input      3 Bit        Muxes := 1     
+	   5 Input      3 Bit        Muxes := 1     
+	  33 Input      3 Bit        Muxes := 3     
+	   2 Input      3 Bit        Muxes := 3     
+	   4 Input      3 Bit        Muxes := 1     
+	   6 Input      3 Bit        Muxes := 1     
+	  13 Input      3 Bit        Muxes := 1     
+	  33 Input      2 Bit        Muxes := 2     
+	  27 Input      2 Bit        Muxes := 1     
+	   4 Input      2 Bit        Muxes := 2     
+	   5 Input      2 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 7     
+	   3 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 33    
+	  28 Input      1 Bit        Muxes := 3     
+	   5 Input      1 Bit        Muxes := 3     
+	   8 Input      1 Bit        Muxes := 3     
+	  33 Input      1 Bit        Muxes := 3     
+	   4 Input      1 Bit        Muxes := 10    
+	   7 Input      1 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 4     
+	  13 Input      1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module pc_reg 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module if_id 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module id 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 3     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 14    
+	   8 Input     32 Bit        Muxes := 1     
+	   5 Input     32 Bit        Muxes := 1     
+	  33 Input     32 Bit        Muxes := 1     
+	   4 Input     32 Bit        Muxes := 1     
+	   8 Input      8 Bit        Muxes := 1     
+	  33 Input      8 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 3     
+	   4 Input      8 Bit        Muxes := 1     
+	  28 Input      7 Bit        Muxes := 1     
+	   5 Input      7 Bit        Muxes := 1     
+	   5 Input      5 Bit        Muxes := 1     
+	   4 Input      5 Bit        Muxes := 3     
+	   2 Input      5 Bit        Muxes := 5     
+	   8 Input      3 Bit        Muxes := 3     
+	  28 Input      3 Bit        Muxes := 1     
+	   5 Input      3 Bit        Muxes := 1     
+	  33 Input      3 Bit        Muxes := 3     
+	   2 Input      3 Bit        Muxes := 3     
+	   4 Input      3 Bit        Muxes := 1     
+	  33 Input      2 Bit        Muxes := 2     
+	  27 Input      2 Bit        Muxes := 1     
+	  28 Input      1 Bit        Muxes := 3     
+	   5 Input      1 Bit        Muxes := 3     
+	   8 Input      1 Bit        Muxes := 3     
+	  33 Input      1 Bit        Muxes := 3     
+	   2 Input      1 Bit        Muxes := 7     
+	   4 Input      1 Bit        Muxes := 4     
+Module regfile 
+Detailed RTL Component Info : 
++---RAMs : 
+	             1024 Bit         RAMs := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 8     
+Module id_ex 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 4     
+	                8 Bit    Registers := 1     
+	                5 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 2     
+Module ex 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     64 Bit       Adders := 4     
+	   2 Input     32 Bit       Adders := 4     
+	   2 Input      6 Bit       Adders := 1     
++---XORs : 
+	   2 Input     32 Bit         XORs := 1     
+	   2 Input      1 Bit         XORs := 1     
++---Muxes : 
+	   2 Input     64 Bit        Muxes := 7     
+	   3 Input     64 Bit        Muxes := 2     
+	   2 Input     32 Bit        Muxes := 24    
+	   4 Input     32 Bit        Muxes := 3     
+	   5 Input     32 Bit        Muxes := 1     
+	   3 Input     32 Bit        Muxes := 2     
+	  33 Input      6 Bit        Muxes := 2     
+	   6 Input      3 Bit        Muxes := 1     
+	   4 Input      2 Bit        Muxes := 1     
+	   5 Input      2 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 2     
+	   3 Input      2 Bit        Muxes := 1     
+	   7 Input      1 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 16    
+	   3 Input      1 Bit        Muxes := 4     
+Module ex_mem 
+Detailed RTL Component Info : 
++---Registers : 
+	               64 Bit    Registers := 1     
+	               32 Bit    Registers := 5     
+	                8 Bit    Registers := 1     
+	                5 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     64 Bit        Muxes := 2     
+	   2 Input      2 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 2     
+Module mem 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input     32 Bit        Muxes := 5     
+	   3 Input     32 Bit        Muxes := 1     
+	   8 Input     32 Bit        Muxes := 1     
+	   2 Input     32 Bit        Muxes := 6     
+	  13 Input     32 Bit        Muxes := 1     
+	   3 Input     16 Bit        Muxes := 1     
+	   4 Input      8 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 3     
+	   3 Input      4 Bit        Muxes := 2     
+	  13 Input      4 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 2     
+	  13 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+	  13 Input      1 Bit        Muxes := 2     
+Module mem_wb 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 3     
+	                5 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 2     
+Module hilo_reg 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 2     
+Module ctrl 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 2     
+Module div 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     33 Bit       Adders := 1     
+	   2 Input     32 Bit       Adders := 3     
+	   2 Input      6 Bit       Adders := 1     
++---XORs : 
+	   2 Input      1 Bit         XORs := 2     
++---Registers : 
+	               65 Bit    Registers := 1     
+	               64 Bit    Registers := 1     
+	               32 Bit    Registers := 1     
+	                6 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     65 Bit        Muxes := 5     
+	   4 Input     65 Bit        Muxes := 2     
+	   2 Input     64 Bit        Muxes := 1     
+	   4 Input     64 Bit        Muxes := 1     
+	   2 Input     32 Bit        Muxes := 2     
+	   2 Input      6 Bit        Muxes := 1     
+	   4 Input      6 Bit        Muxes := 1     
+	   4 Input      2 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 3     
+	   2 Input      1 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 6     
+Module inst_rom 
+Detailed RTL Component Info : 
++---Muxes : 
+	   5 Input     32 Bit        Muxes := 1     
+	   2 Input     32 Bit        Muxes := 1     
+Module data_ram 
+Detailed RTL Component Info : 
++---RAMs : 
+	            1023K Bit         RAMs := 4     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-5546] ROM "aluop_o" won't be mapped to RAM because it is too sparse
+DSP Report: Generating DSP hilo_temp, operation Mode is: A*B.
+DSP Report: operator hilo_temp is absorbed into DSP hilo_temp.
+DSP Report: operator hilo_temp is absorbed into DSP hilo_temp.
+DSP Report: Generating DSP hilo_temp, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator hilo_temp is absorbed into DSP hilo_temp.
+DSP Report: operator hilo_temp is absorbed into DSP hilo_temp.
+DSP Report: Generating DSP hilo_temp, operation Mode is: A*B.
+DSP Report: operator hilo_temp is absorbed into DSP hilo_temp.
+DSP Report: operator hilo_temp is absorbed into DSP hilo_temp.
+DSP Report: Generating DSP hilo_temp, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator hilo_temp is absorbed into DSP hilo_temp.
+DSP Report: operator hilo_temp is absorbed into DSP hilo_temp.
+ERROR: [Synth 8-3391] Unable to infer a block/distributed RAM for 'openmips_min_sopc0/data_ram0/data_mem0_reg' because the memory pattern used is not supported. Failed to dissolve the memory into bits because the number of bits (1048568) is too large. Use 'set_param synth.elaboration.rodinMoreOptions {rt::set_parameter dissolveMemorySizeLimit 1048568}' to allow the memory to be dissolved into individual bits
+ERROR: [Synth 8-3391] Unable to infer a block/distributed RAM for 'openmips_min_sopc0/data_ram0/data_mem1_reg' because the memory pattern used is not supported. Failed to dissolve the memory into bits because the number of bits (1048568) is too large. Use 'set_param synth.elaboration.rodinMoreOptions {rt::set_parameter dissolveMemorySizeLimit 1048568}' to allow the memory to be dissolved into individual bits
+ERROR: [Synth 8-3391] Unable to infer a block/distributed RAM for 'openmips_min_sopc0/data_ram0/data_mem2_reg' because the memory pattern used is not supported. Failed to dissolve the memory into bits because the number of bits (1048568) is too large. Use 'set_param synth.elaboration.rodinMoreOptions {rt::set_parameter dissolveMemorySizeLimit 1048568}' to allow the memory to be dissolved into individual bits
+ERROR: [Synth 8-3391] Unable to infer a block/distributed RAM for 'openmips_min_sopc0/data_ram0/data_mem3_reg' because the memory pattern used is not supported. Failed to dissolve the memory into bits because the number of bits (1048568) is too large. Use 'set_param synth.elaboration.rodinMoreOptions {rt::set_parameter dissolveMemorySizeLimit 1048568}' to allow the memory to be dissolved into individual bits
+Abnormal program termination (EXCEPTION_ACCESS_VIOLATION)
+Please check 'G:/vi_project/keshe/HelinCPU/CH9-5_CPU/CH9-5_CPU.runs/synth_1/hs_err_pid25876.log' for details

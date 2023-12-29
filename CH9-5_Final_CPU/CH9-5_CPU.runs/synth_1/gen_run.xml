@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1703845590">
+  <File Type="PA-TCL" Name="openmips_min_sopc_tb.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="openmips_min_sopc_tb_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="openmips_min_sopc_tb_reports.tcl"/>
+  <File Type="RDS-RDS" Name="openmips_min_sopc_tb.vds"/>
+  <File Type="RDS-UTIL" Name="openmips_min_sopc_tb_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="openmips_min_sopc_tb_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="openmips_min_sopc_tb.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="openmips_min_sopc_tb_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="openmips_min_sopc_tb_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/Chapter9_1/defines.v">
+      <FileInfo SFType="VHeader">
+        <Attr Name="ImportPath" Val="$PPRDIR/Chapter9_1/defines.v"/>
+        <Attr Name="ImportTime" Val="1519919030"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Chapter9_1/ctrl.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/Chapter9_1/ctrl.v"/>
+        <Attr Name="ImportTime" Val="1519919030"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Chapter9_1/data_ram.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/Chapter9_1/data_ram.v"/>
+        <Attr Name="ImportTime" Val="1519919030"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Chapter9_1/div.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/Chapter9_1/div.v"/>
+        <Attr Name="ImportTime" Val="1519919030"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Chapter9_1/ex.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/Chapter9_1/ex.v"/>
+        <Attr Name="ImportTime" Val="1519919030"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Chapter9_1/ex_mem.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/Chapter9_1/ex_mem.v"/>
+        <Attr Name="ImportTime" Val="1519919030"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Chapter9_1/hilo_reg.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/Chapter9_1/hilo_reg.v"/>
+        <Attr Name="ImportTime" Val="1519919030"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Chapter9_1/id.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/Chapter9_1/id.v"/>
+        <Attr Name="ImportTime" Val="1519919030"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Chapter9_1/id_ex.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/Chapter9_1/id_ex.v"/>
+        <Attr Name="ImportTime" Val="1519919030"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Chapter9_1/if_id.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/Chapter9_1/if_id.v"/>
+        <Attr Name="ImportTime" Val="1519919030"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Chapter9_1/inst_rom.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/Chapter9_1/inst_rom.v"/>
+        <Attr Name="ImportTime" Val="1703840841"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Chapter9_1/mem.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/Chapter9_1/mem.v"/>
+        <Attr Name="ImportTime" Val="1519919030"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Chapter9_1/mem_wb.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/Chapter9_1/mem_wb.v"/>
+        <Attr Name="ImportTime" Val="1519919030"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Chapter9_1/openmips.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/Chapter9_1/openmips.v"/>
+        <Attr Name="ImportTime" Val="1519919030"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Chapter9_1/openmips_min_sopc.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/Chapter9_1/openmips_min_sopc.v"/>
+        <Attr Name="ImportTime" Val="1519919030"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Chapter9_1/pc_reg.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/Chapter9_1/pc_reg.v"/>
+        <Attr Name="ImportTime" Val="1519919030"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Chapter9_1/regfile.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/Chapter9_1/regfile.v"/>
+        <Attr Name="ImportTime" Val="1519919030"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Chapter9_1/openmips_min_sopc_tb.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/Chapter9_1/openmips_min_sopc_tb.v"/>
+        <Attr Name="ImportTime" Val="1519919030"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="openmips_min_sopc_tb"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2019"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

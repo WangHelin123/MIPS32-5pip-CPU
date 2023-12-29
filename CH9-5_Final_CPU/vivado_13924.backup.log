@@ -1,0 +1,40 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Fri Dec 29 18:13:22 2023
+# Process ID: 13924
+# Current directory: G:/vi_project/keshe/HelinCPU/CH9-5_CPU
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent22756 G:\vi_project\keshe\HelinCPU\CH9-5_CPU\CH9-5_CPU.xpr
+# Log file: G:/vi_project/keshe/HelinCPU/CH9-5_CPU/vivado.log
+# Journal file: G:/vi_project/keshe/HelinCPU/CH9-5_CPU\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project G:/vi_project/keshe/HelinCPU/CH9-5_CPU/CH9-5_CPU.xpr
+CRITICAL WARNING: [Project 1-19] Could not find the file 'G:/vi_project/keshe/Examples-in-book-write-your-own-cpu-master/Code/Chapter9_1/defines.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'G:/vi_project/keshe/Examples-in-book-write-your-own-cpu-master/Code/Chapter9_1/ctrl.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'G:/vi_project/keshe/Examples-in-book-write-your-own-cpu-master/Code/Chapter9_1/data_ram.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'G:/vi_project/keshe/Examples-in-book-write-your-own-cpu-master/Code/Chapter9_1/div.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'G:/vi_project/keshe/Examples-in-book-write-your-own-cpu-master/Code/Chapter9_1/ex.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'G:/vi_project/keshe/Examples-in-book-write-your-own-cpu-master/Code/Chapter9_1/ex_mem.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'G:/vi_project/keshe/Examples-in-book-write-your-own-cpu-master/Code/Chapter9_1/hilo_reg.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'G:/vi_project/keshe/Examples-in-book-write-your-own-cpu-master/Code/Chapter9_1/id.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'G:/vi_project/keshe/Examples-in-book-write-your-own-cpu-master/Code/Chapter9_1/id_ex.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'G:/vi_project/keshe/Examples-in-book-write-your-own-cpu-master/Code/Chapter9_1/if_id.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'G:/vi_project/keshe/Examples-in-book-write-your-own-cpu-master/Code/Chapter9_1/inst_rom.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'G:/vi_project/keshe/Examples-in-book-write-your-own-cpu-master/Code/Chapter9_1/mem.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'G:/vi_project/keshe/Examples-in-book-write-your-own-cpu-master/Code/Chapter9_1/mem_wb.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'G:/vi_project/keshe/Examples-in-book-write-your-own-cpu-master/Code/Chapter9_1/openmips.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'G:/vi_project/keshe/Examples-in-book-write-your-own-cpu-master/Code/Chapter9_1/openmips_min_sopc.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'G:/vi_project/keshe/Examples-in-book-write-your-own-cpu-master/Code/Chapter9_1/pc_reg.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'G:/vi_project/keshe/Examples-in-book-write-your-own-cpu-master/Code/Chapter9_1/regfile.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'G:/vi_project/keshe/Examples-in-book-write-your-own-cpu-master/Code/Chapter9_1/openmips_min_sopc_tb.v'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'G:/Xilinx/Vivado/2019.2/data/ip'.
+open_project: Time (s): cpu = 00:00:20 ; elapsed = 00:00:08 . Memory (MB): peak = 737.152 ; gain = 108.504
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Dec 29 18:14:24 2023...
