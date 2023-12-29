@@ -1,0 +1,19 @@
+0.6
+2019.2
+Nov  6 2019
+21:57:16
+G:/vi_project/keshe/OpenMIPS/OpenMIPS.sim/sim_1/behav/xsim/glbl.v,1573089660,verilog,,,,glbl,,,,,,,,
+G:/vi_project/keshe/OpenMIPS/OpenMIPS.srcs/sim_1/new/openmips_min_sopc_tb.v,1703825964,verilog,,,G:/vi_project/keshe/OpenMIPS/OpenMIPS.srcs/sources_1/new/defines.v,openmips_min_sopc_tb,,,../../../../OpenMIPS.srcs/sources_1/new,,,,,
+G:/vi_project/keshe/OpenMIPS/OpenMIPS.srcs/sources_1/new/defines.v,1703821706,verilog,,,,,,,,,,,,
+G:/vi_project/keshe/OpenMIPS/OpenMIPS.srcs/sources_1/new/ex.v,1703818444,verilog,,G:/vi_project/keshe/OpenMIPS/OpenMIPS.srcs/sources_1/new/ex_mem.v,G:/vi_project/keshe/OpenMIPS/OpenMIPS.srcs/sources_1/new/defines.v,ex,,,../../../../OpenMIPS.srcs/sources_1/new,,,,,
+G:/vi_project/keshe/OpenMIPS/OpenMIPS.srcs/sources_1/new/ex_mem.v,1703818521,verilog,,G:/vi_project/keshe/OpenMIPS/OpenMIPS.srcs/sources_1/new/id.v,G:/vi_project/keshe/OpenMIPS/OpenMIPS.srcs/sources_1/new/defines.v,ex_mem,,,../../../../OpenMIPS.srcs/sources_1/new,,,,,
+G:/vi_project/keshe/OpenMIPS/OpenMIPS.srcs/sources_1/new/id.v,1703817999,verilog,,G:/vi_project/keshe/OpenMIPS/OpenMIPS.srcs/sources_1/new/id_ex.v,G:/vi_project/keshe/OpenMIPS/OpenMIPS.srcs/sources_1/new/defines.v,id,,,../../../../OpenMIPS.srcs/sources_1/new,,,,,
+G:/vi_project/keshe/OpenMIPS/OpenMIPS.srcs/sources_1/new/id_ex.v,1703818263,verilog,,G:/vi_project/keshe/OpenMIPS/OpenMIPS.srcs/sources_1/new/if_id.v,G:/vi_project/keshe/OpenMIPS/OpenMIPS.srcs/sources_1/new/defines.v,id_ex,,,../../../../OpenMIPS.srcs/sources_1/new,,,,,
+G:/vi_project/keshe/OpenMIPS/OpenMIPS.srcs/sources_1/new/if_id.v,1703817307,verilog,,G:/vi_project/keshe/OpenMIPS/OpenMIPS.srcs/sources_1/new/inst_rom.v,G:/vi_project/keshe/OpenMIPS/OpenMIPS.srcs/sources_1/new/defines.v,if_id,,,../../../../OpenMIPS.srcs/sources_1/new,,,,,
+G:/vi_project/keshe/OpenMIPS/OpenMIPS.srcs/sources_1/new/inst_rom.v,1703832981,verilog,,G:/vi_project/keshe/OpenMIPS/OpenMIPS.srcs/sources_1/new/mem.v,G:/vi_project/keshe/OpenMIPS/OpenMIPS.srcs/sources_1/new/defines.v,inst_rom,,,../../../../OpenMIPS.srcs/sources_1/new,,,,,
+G:/vi_project/keshe/OpenMIPS/OpenMIPS.srcs/sources_1/new/mem.v,1703818621,verilog,,G:/vi_project/keshe/OpenMIPS/OpenMIPS.srcs/sources_1/new/mem_wb.v,G:/vi_project/keshe/OpenMIPS/OpenMIPS.srcs/sources_1/new/defines.v,mem,,,../../../../OpenMIPS.srcs/sources_1/new,,,,,
+G:/vi_project/keshe/OpenMIPS/OpenMIPS.srcs/sources_1/new/mem_wb.v,1703818726,verilog,,G:/vi_project/keshe/OpenMIPS/OpenMIPS.srcs/sources_1/new/openmips.v,G:/vi_project/keshe/OpenMIPS/OpenMIPS.srcs/sources_1/new/defines.v,mem_wb,,,../../../../OpenMIPS.srcs/sources_1/new,,,,,
+G:/vi_project/keshe/OpenMIPS/OpenMIPS.srcs/sources_1/new/openmips.v,1703819036,verilog,,G:/vi_project/keshe/OpenMIPS/OpenMIPS.srcs/sources_1/new/openmips_min_sopc.v,G:/vi_project/keshe/OpenMIPS/OpenMIPS.srcs/sources_1/new/defines.v,openmips,,,../../../../OpenMIPS.srcs/sources_1/new,,,,,
+G:/vi_project/keshe/OpenMIPS/OpenMIPS.srcs/sources_1/new/openmips_min_sopc.v,1703821556,verilog,,G:/vi_project/keshe/OpenMIPS/OpenMIPS.srcs/sources_1/new/pc_reg.v,G:/vi_project/keshe/OpenMIPS/OpenMIPS.srcs/sources_1/new/defines.v,openmips_min_sopc,,,../../../../OpenMIPS.srcs/sources_1/new,,,,,
+G:/vi_project/keshe/OpenMIPS/OpenMIPS.srcs/sources_1/new/pc_reg.v,1703817601,verilog,,G:/vi_project/keshe/OpenMIPS/OpenMIPS.srcs/sources_1/new/regfile.v,G:/vi_project/keshe/OpenMIPS/OpenMIPS.srcs/sources_1/new/defines.v,pc_reg,,,../../../../OpenMIPS.srcs/sources_1/new,,,,,
+G:/vi_project/keshe/OpenMIPS/OpenMIPS.srcs/sources_1/new/regfile.v,1703817772,verilog,,G:/vi_project/keshe/OpenMIPS/OpenMIPS.srcs/sim_1/new/openmips_min_sopc_tb.v,G:/vi_project/keshe/OpenMIPS/OpenMIPS.srcs/sources_1/new/defines.v,regfile,,,../../../../OpenMIPS.srcs/sources_1/new,,,,,
