@@ -43,7 +43,7 @@ module inst_rom(
 
 	reg[`InstBus]  inst_mem[0:`InstMemNum-1];
 
-	initial $readmemh ( "G:/vi_project/keshe/HelinCPU/CH9-5_CPU/CH9-5_CPU.srcs/sources_1/imports/Chapter9_1/inst_rom.data", inst_mem );
+	initial $readmemh ( "G:/vi_project/keshe/HelinCPU/CH9-5_Final_CPU/CH9-5_CPU.srcs/sources_1/imports/Chapter9_1/inst_rom.data", inst_mem );
 
 	always @ (*) begin
 		if (ce == `ChipDisable) begin

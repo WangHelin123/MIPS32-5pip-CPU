@@ -54,5 +54,6 @@
 1. Vivado/ModelSim环境。
 2. 在《MIPS指令系统规范》找到指令对应的二进制码，并以十六进制形式输入inst_rom.data。
 3. 因为我用的vivado，inst_rom.data用了绝对地址，所以，修改成你的地址。
-![修改地址](img/CH4&9-5_caozuo.png)
-4. 运行模拟。
+  ![修改地址](img/CH4&9-5_caozuo.png)
+4. 运行模拟。![iou指令仿真](img/CH9-5_ori指令仿真.png)
+   
